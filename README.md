@@ -1,2 +1,2 @@
 # jzfCentOS
-This is a directory with configure script for Centos.
+This is a directory with configure script for CentOS.
