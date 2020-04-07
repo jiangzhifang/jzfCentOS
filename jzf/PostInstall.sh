@@ -1,12 +1,12 @@
 #!/bin/bash
 #
-# File name: set_io_scheduler.sh
+# File name: PostInstall.sh
 #
 
-rpm -ivh /root/jzf/*.rpm
+rpm -ivh /root/jzfCentOS/jzf/*.rpm
 
-cat /root/jzf/20-nproc.conf > /etc/security/limits.d/20-nproc.conf
-cat /root/jzf/sysctl.conf > /etc/sysctl.conf
+cat /root/jzfCentOS/jzf/20-nproc.conf > /etc/security/limits.d/20-nproc.conf
+cat /root/jzfCentOS/jzf/sysctl.conf > /etc/sysctl.conf
 
 chmod +x /etc/rc.d/rc.local
 
