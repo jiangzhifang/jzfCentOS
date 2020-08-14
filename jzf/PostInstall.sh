@@ -21,3 +21,5 @@ else
 fi
 
 echo 'echo 2048 > /sys/block/sda/queue/nr_requests' >> /etc/rc.d/rc.local
+
+rm -rf /etc/yum.repos.d/cobbler*
